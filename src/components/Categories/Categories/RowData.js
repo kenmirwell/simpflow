@@ -1,7 +1,7 @@
 export const categoryData = [
     {
         icon: "A",
-        category: "Dinner",
+        category: "Breakfast",
         group: "Food",
         isHidden: "",
         budget: "",
