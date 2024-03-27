@@ -1,0 +1,13 @@
+.header-table {
+
+    .header-table-container {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        text-align: center;
+        padding: 10px 0;
+        background-color: $color-blackout;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+}

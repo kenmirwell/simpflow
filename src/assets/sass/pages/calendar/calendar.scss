@@ -1,0 +1,125 @@
+.calendar {
+
+    .calendar-card {
+        max-width: 350px;
+
+        .calendar-content {
+            background-color: $color-blackout;
+            border-radius: 20px;
+
+            .year-container {
+                position: relative;
+                padding: 40px 20px 20px 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .year-content {
+                    display: flex;
+                    gap: 15px;
+
+                    span {
+                        cursor: pointer;
+                    }
+                }
+
+                .arrows-container {
+                    display: flex;
+                    align-items: center;
+
+                    span {
+                        cursor: pointer;
+                    }
+                }
+
+                .year-modal {
+                    position: absolute;
+                    background-color: $color-blackout;
+                    border: 1px solid #818181;
+                    border-radius: 20px;
+                    width: 250px;
+                    padding: 20px;
+                    padding-right: 0px;
+                    top: 0;
+                    right: -35px;
+
+                    .year-modal-container {
+                        height: 415px;
+                        padding-right: 20px;
+                        overflow-y: scroll;
+
+                        .year-modal-content {
+                            display: grid;
+                            grid-template-columns: repeat(3, minmax(0, 1fr));
+                            // display: flex;
+                            // flex-wrap: wrap;
+                            justify-content: center;
+                            text-align: center;
+                            gap: 10px;
+
+                            .year-button {
+                                cursor: pointer;
+
+                                &:hover {
+                                    background-color: $color-sky;
+                                    border-radius: 5px;
+                                }
+                            }
+                        }
+    
+                        .arrows-container {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding-top: 20px;
+        
+                            span {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .calendar-days {
+                display: grid;
+                grid-template-columns: repeat(7, minmax(0, 1fr));
+                padding: 10px 20px;
+
+                span {
+                    text-align: center;
+                }
+            }
+            
+            .calendar-columns {
+                display: grid;
+                grid-template-columns: repeat(7, minmax(0, 1fr));
+                padding: 10px 20px 20px 20px;
+    
+                .cell-container {
+                    // border: 1px solid $color-mud;
+                    padding: 10px;
+                    text-align: center;
+
+                    &.cell {
+                        cursor: pointer;
+                        border-radius: 40px;
+                        transition: background-color ease-in-out .2s;
+
+                        &:hover {
+                            background-color: $color-sky;
+                        }
+                    }
+
+                    &.today {
+                        background-color: $color-orange;
+                    }
+
+                    &.active {
+                         background-color: $color-sky;
+                    }
+                }
+            }
+        }
+    }
+}

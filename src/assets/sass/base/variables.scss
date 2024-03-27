@@ -1,0 +1,86 @@
+// Color
+$color-dark: #2c2c2c;
+$color-blackout: #383838;
+$color-sky: #0C8CE9;
+
+$color-white: #FFFFFF;
+$color-notso-white: #eeeeee;
+$color-black: #000;
+$color-error:rgb(243, 55, 55);
+$color-carribean: #42C0FB;
+$color-fern: #4f7942;
+$color-dark-moss: #5FB3B0; 
+$color-white-smoke: #F5F5F5;
+$color-silver: #ccc;
+
+$color-logo-blue: #004D80;
+$color-nightly: #25282B;
+$color-beach: #2AAAE2;
+$color-light-beach: #57c7f7;
+$color-midnight: #061A4B;
+$color-ash: #DDDDDD;
+$color-border: #D1D1D1;
+$color-night: #222222;
+$color-blood: #800;
+$color-deep-red: #9B0000;
+$color-mud: #818181;
+$color-grey: #E0E0E0;
+$color-silver: #CFCFCF;
+$color-greyish-blue: #FBFCFD;
+$color-grey-var1: #A1A1A1;
+$color-grey-var2: #616161;
+$color-grey-var3: #414141;
+$color-grey-var4: #F7F7F7;
+$color-orange: #f9aa88;
+
+// Headers
+$h1-font-size: 56px !default;
+$h2-font-size: 56px !default;
+$h3-font-size: 48px !default;
+$h4-font-size: 32px !default;
+$h5-font-size: 24px !default;
+$h6-font-size: 18px !default;
+
+$h1-font-size-mobile: 44px !default;
+$h2-font-size-mobile: 44px !default;
+$h3-font-size-mobile: 36px !default;
+$h4-font-size-mobile: 32px !default;
+$h5-font-size-mobile: 30px !default;
+$h6-font-size-mobile: 18px !default;
+
+// Font Weight
+$fw-100: 100;
+$fw-thin: 200;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+$fw-800: 800;
+$fw-bolder: 900;
+
+// Font Family
+$sans-serif: sans-serif;
+$font-open-sans: 'Open Sans', $sans-serif;
+$font-nexa: 'Nexa', $sans-serif;
+$font-proxima: 'proxima-nova', $sans-serif;
+$font-montserrat: 'Montserrat', $sans-serif;
+$font-manrope: 'Manrope', $sans-serif;
+$font-gotham: 'Manrope', $sans-serif;
+
+// Body
+$body-font-size: 16px !default;
+$body-line-height: 1.5 !default;
+$body-font-size-mobile: 16px !default;
+$body-font-family: $font-manrope !default;
+$body-color: $color-white !default;
+
+$headings-font-family: $font-manrope !default;
+$headings-color: $color-white !default;
+
+$animation-speed: 0.3s;
+
+// Line Height
+$line-height-normal: normal;
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base: 1.428571429 !default; // 20/14

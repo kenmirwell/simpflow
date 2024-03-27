@@ -1,0 +1,25 @@
+.categories {
+    
+    .header {
+
+    }
+
+    .categories-content {
+        padding-top: 20px;
+
+        .add-categories {
+            cursor: pointer;
+            display: flex;
+            justify-content: right;
+        }
+
+        .category-types {
+            display: flex;
+            gap: 20px;
+        }
+
+        .categories-table {
+            padding-top: 20px;
+        }
+    }
+}

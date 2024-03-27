@@ -1,0 +1,28 @@
+
+
+$breakpoints: (
+	'xs-phone': 320px,
+	'phone': 480px,
+	'tablet': 768px,
+	'desktop': 991px,
+	'desktop-bootstrap' : 1200px,
+	'hd': 1440px
+);
+
+@import "vendors/include-media";
+
+@import "base/variables.scss";
+@import "base/typography.scss";
+@import "base/default.scss";
+
+@import "common/sidebar.scss";
+@import "common/header.scss";
+@import "common/table/header-table.scss";
+@import "common/table/row-table.scss";
+
+@import "pages/login/login.scss";
+@import "pages/signup/signup.scss";
+@import "pages/calendar/calendar.scss";
+@import "pages/categories/categories.scss"
+
+
